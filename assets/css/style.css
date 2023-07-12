@@ -99,6 +99,10 @@ div > i:nth-child(2) {
   color: lightgray;
 }
 
+.done i {
+  color: #14254a;
+}
+
 .done i:first-child {
   display: none;
 }
