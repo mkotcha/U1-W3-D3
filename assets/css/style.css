@@ -1,0 +1,116 @@
+.color1 {
+  color: #000000;
+}
+.color2 {
+  color: #14254a;
+}
+.color3 {
+  color: #3d57a0;
+}
+.color4 {
+  color: #7090ff;
+}
+.color5 {
+  color: #adcfff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  min-width: 380px;
+  font-family: "Roboto", sans-serif;
+  background-color: #adcfff;
+  color: #14254a;
+}
+
+header {
+  background-color: #3d57a0;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+body > section {
+  background-color: #7090ff;
+  height: 120px;
+  padding-top: 40px;
+}
+
+form > * {
+  display: inline-block;
+  height: 40px;
+  border: none;
+  padding-inline: 20px;
+  margin-inline: 5px;
+  border-radius: 10px;
+}
+
+form > button {
+  background-color: #adcfff;
+  color: #14254a;
+}
+
+form > button:hover {
+  cursor: pointer;
+  background-color: #3d57a0;
+  color: white;
+}
+
+main {
+  background-color: white;
+  margin: 40px 10%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+main div {
+  background-color: azure;
+  margin: 4px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+main div:hover {
+  background-color: #adcfff;
+  cursor: pointer;
+}
+
+main div > i {
+  padding-inline: 5px;
+}
+
+div > i:nth-child(2) {
+  display: none;
+}
+
+.done {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+.done i:first-child {
+  display: none;
+}
+
+div.done > i:nth-child(2) {
+  display: inline;
+}
+
+main div > i:first-child:hover {
+  color: green;
+}
+
+main div > i:last-child {
+  float: right;
+}
+
+main div > i:last-child:hover {
+  color: red;
+}
