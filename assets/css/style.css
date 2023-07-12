@@ -77,6 +77,10 @@ main div {
   border-radius: 10px;
 }
 
+main div * {
+  display: inline-block;
+}
+
 main div:hover {
   background-color: #adcfff;
   cursor: pointer;
